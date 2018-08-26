@@ -1,0 +1,145 @@
+dependencies:
+  discord.js: github.com/hydrabolt/discord.js/faf27fabc055cb3850e823cf36c0af21c0139c35
+  json-maker: 1.2.4
+  klaw: 2.1.1
+  moment: 2.22.2
+  uws: 9.148.0
+packages:
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /fs-extra/3.0.1:
+    dependencies:
+      graceful-fs: 4.1.11
+      jsonfile: 3.0.1
+      universalify: 0.1.2
+    dev: false
+    resolution:
+      integrity: sha1-N5TzeMWLNC6n27sjCVEJxLO2IpE=
+  /graceful-fs/4.1.11:
+    dev: false
+    engines:
+      node: '>=0.4.0'
+    resolution:
+      integrity: sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  /json-maker/1.2.4:
+    dependencies:
+      fs-extra: 3.0.1
+      path: 0.12.7
+    dev: false
+    resolution:
+      integrity: sha512-uof1bvKzjvw0CaaP+ZQaz8I0/QFBXqYubbm1JEkiaX5B6wuxL4gNitfwoYqaClQmy80pHrUut5u00QX2moC8Og==
+  /jsonfile/3.0.1:
+    dev: false
+    optionalDependencies:
+      graceful-fs: 4.1.11
+    resolution:
+      integrity: sha1-pezG9l9T9mLEQVx2daAzHQmS7GY=
+  /klaw/2.1.1:
+    dependencies:
+      graceful-fs: 4.1.11
+    dev: false
+    resolution:
+      integrity: sha1-QrdolHARacyRD9DRnOZ3tfs3ivE=
+  /moment/2.22.2:
+    dev: false
+    resolution:
+      integrity: sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
+  /pako/1.0.6:
+    dev: false
+    resolution:
+      integrity: sha512-lQe48YPsMJAig+yngZ87Lus+NF+3mtu7DVOBu6b/gHO1YpKwIj5AWjZ/TOS7i46HD/UixzWb1zeWDZfGZ3iYcg==
+  /path/0.12.7:
+    dependencies:
+      process: 0.11.10
+      util: 0.10.4
+    dev: false
+    resolution:
+      integrity: sha1-1NwqUGxM4hl+tIHr/NWzbAFAsQ8=
+  /prism-media/0.2.1:
+    dev: false
+    peerDependencies:
+      node-opus: ^0.2.7
+      opusscript: ^0.0.4
+    resolution:
+      integrity: sha512-Kfp1+6gzjY6X8mqKHa6D3brX+BtMUPFwzAkz4zgtVPgbkA2XxhITROdfQXVurU4fuJsylFRwqo7ciQlQCm9hAw==
+  /process/0.11.10:
+    dev: false
+    engines:
+      node: '>= 0.6.0'
+    resolution:
+      integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=
+  /safe-buffer/5.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /snekfetch/3.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
+  /tweetnacl/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-cT2LgY2kIGh0C/aDhtBHnmb8ins=
+  /universalify/0.1.2:
+    dev: false
+    engines:
+      node: '>= 4.0.0'
+    resolution:
+      integrity: sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
+  /util/0.10.4:
+    dependencies:
+      inherits: 2.0.3
+    dev: false
+    resolution:
+      integrity: sha512-0Pm9hTQ3se5ll1XihRic3FDIku70C+iHUdT/W926rSgHV5QgXsYbKZN8MSC3tJtSkhuROzvsQjAaFENRXr+19A==
+  /uws/9.148.0:
+    dev: false
+    engines:
+      node: '>=4'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-vWt+e8dOdwLM4neb1xIeZuQ7ZUN3l7n0qTKrOUtU1EZrV4BpmrSnsEL30d062/ocqRMGtLpwzVFsLKFgXomA9g==
+  /ws/4.1.0:
+    dependencies:
+      async-limiter: 1.0.0
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==
+  github.com/hydrabolt/discord.js/faf27fabc055cb3850e823cf36c0af21c0139c35:
+    dependencies:
+      pako: 1.0.6
+      prism-media: 0.2.1
+      snekfetch: 3.6.4
+      tweetnacl: 1.0.0
+      ws: 4.1.0
+    dev: false
+    engines:
+      node: '>=8.0.0'
+    name: discord.js
+    peerDependencies:
+      bufferutil: ^3.0.0
+      erlpack: discordapp/erlpack
+      libsodium-wrappers: ^0.7.0
+      sodium: ^2.0.0
+      uws: ^9.14.0
+      zlib-sync: ^0.1.0
+    resolution:
+      registry: 'https://registry.npmjs.org/'
+      tarball: 'https://codeload.github.com/hydrabolt/discord.js/tar.gz/faf27fabc055cb3850e823cf36c0af21c0139c35'
+    version: 12.0.0-dev
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  discord.js: 'github:hydrabolt/discord.js#faf27fabc055cb3850e823cf36c0af21c0139c35'
+  json-maker: ^1.2.4
+  klaw: ^2.0.0
+  moment: ^2.18.1
+  uws: ^9.14.0

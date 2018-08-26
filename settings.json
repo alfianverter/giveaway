@@ -1,0 +1,9 @@
+{
+  "joinGiveawayResponseCharacter": "🎉",
+  "giveawayRole": "Giveaways",
+  "bracketsCurrencyZone": "us",
+  "daemonInterval" : "*/10 * * * * *",
+  "maxConcurrentGiveaways" : 5,
+  "winningCooldownDays" : 3
+
+}
